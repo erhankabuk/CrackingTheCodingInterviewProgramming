@@ -10,8 +10,12 @@ namespace _1._1IsUnique
 
             string s1 = "abcd10jk";
             string s2 = "hutg9mnd!nk9";
+            string s3 = "Bp1wSTTqyITjR8Tf7QiqbNNRYpW8ErANe7l13N1pQRdlsYBswgI5ufUkE8C7t7VWm631LhJ2BMIV9sxzxJhjrDpe1UdxuzoSwJl3asR1sW9vf9hkdl7mXo7H";
+            string s4 = " !#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
             Console.WriteLine(IsUnique(s1));
             Console.WriteLine(IsUnique(s2));
+            Console.WriteLine(IsUnique(s3));
+            Console.WriteLine(IsUnique(s4));
 
             Console.ReadKey();
         }

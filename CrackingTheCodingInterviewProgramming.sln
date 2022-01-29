@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures", "Data Structures", "{40D38570-9188-46E0-9FE7-7175721F54AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1IsUnique", "1.1IsUnique\1.1IsUnique.csproj", "{00304268-B138-4145-8B58-629E6EBAAD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2CheckPermutation", "1.2CheckPermutation\1.2CheckPermutation.csproj", "{7C733149-7AC7-4DA2-9986-103286749E81}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00304268-B138-4145-8B58-629E6EBAAD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00304268-B138-4145-8B58-629E6EBAAD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00304268-B138-4145-8B58-629E6EBAAD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00304268-B138-4145-8B58-629E6EBAAD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C733149-7AC7-4DA2-9986-103286749E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C733149-7AC7-4DA2-9986-103286749E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C733149-7AC7-4DA2-9986-103286749E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C733149-7AC7-4DA2-9986-103286749E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00304268-B138-4145-8B58-629E6EBAAD8B} = {40D38570-9188-46E0-9FE7-7175721F54AE}
+		{7C733149-7AC7-4DA2-9986-103286749E81} = {40D38570-9188-46E0-9FE7-7175721F54AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63092C2E-702C-494B-A1C1-84F39D23E38E}
