@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.6StringCompression", "1.6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8ZeroMatrix", "1.8ZeroMatrix\1.8ZeroMatrix.csproj", "{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.9StringRotation", "1.9StringRotation\1.9StringRotation.csproj", "{94B2EB7B-58DE-451E-B98F-4746F1605C59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{48471F4D-23D3-4660-B51B-944654D41506} = {40D38570-9188-46E0-9FE7-7175721F54AE}
 		{EF5A4539-6E42-42BD-ADAE-7DCD60DE6F05} = {40D38570-9188-46E0-9FE7-7175721F54AE}
 		{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD} = {40D38570-9188-46E0-9FE7-7175721F54AE}
+		{94B2EB7B-58DE-451E-B98F-4746F1605C59} = {40D38570-9188-46E0-9FE7-7175721F54AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63092C2E-702C-494B-A1C1-84F39D23E38E}
