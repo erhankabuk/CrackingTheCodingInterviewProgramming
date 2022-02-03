@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.5OneWay", "1.5OneWay\1.5O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.6StringCompression", "1.6StringCompression\1.6StringCompression.csproj", "{EF5A4539-6E42-42BD-ADAE-7DCD60DE6F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8ZeroMatrix", "1.8ZeroMatrix\1.8ZeroMatrix.csproj", "{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.8ZeroMatrix", "1.8ZeroMatrix\1.8ZeroMatrix.csproj", "{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.9StringRotation", "1.9StringRotation\1.9StringRotation.csproj", "{94B2EB7B-58DE-451E-B98F-4746F1605C59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.9StringRotation", "1.9StringRotation\1.9StringRotation.csproj", "{94B2EB7B-58DE-451E-B98F-4746F1605C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedLists", "LinkedLists", "{0DFB26C7-7FE4-4CCC-93E4-4495AA329956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1RemoveDups", "2.1RemoveDups\2.1RemoveDups.csproj", "{DBDCE158-3D65-4537-8040-667175E517E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B2EB7B-58DE-451E-B98F-4746F1605C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDCE158-3D65-4537-8040-667175E517E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDCE158-3D65-4537-8040-667175E517E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDCE158-3D65-4537-8040-667175E517E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDCE158-3D65-4537-8040-667175E517E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{EF5A4539-6E42-42BD-ADAE-7DCD60DE6F05} = {40D38570-9188-46E0-9FE7-7175721F54AE}
 		{E89D2F34-100F-4F3D-87FE-3D4EFEA243BD} = {40D38570-9188-46E0-9FE7-7175721F54AE}
 		{94B2EB7B-58DE-451E-B98F-4746F1605C59} = {40D38570-9188-46E0-9FE7-7175721F54AE}
+		{DBDCE158-3D65-4537-8040-667175E517E2} = {0DFB26C7-7FE4-4CCC-93E4-4495AA329956}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63092C2E-702C-494B-A1C1-84F39D23E38E}
