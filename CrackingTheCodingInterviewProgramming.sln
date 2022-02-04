@@ -21,11 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.9StringRotation", "1.9Str
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedLists", "LinkedLists", "{0DFB26C7-7FE4-4CCC-93E4-4495AA329956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1RemoveDups", "2.1RemoveDups\2.1RemoveDups.csproj", "{DBDCE158-3D65-4537-8040-667175E517E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1RemoveDups", "2.1RemoveDups\2.1RemoveDups.csproj", "{DBDCE158-3D65-4537-8040-667175E517E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2ReturnKthToLast", "2.2ReturnKthToLast\2.2ReturnKthToLast.csproj", "{505C0B73-0AC0-4481-9F68-3FF68B6E440F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2ReturnKthToLast", "2.2ReturnKthToLast\2.2ReturnKthToLast.csproj", "{505C0B73-0AC0-4481-9F68-3FF68B6E440F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3DeleteMiddleNode", "2.3DeleteMiddleNode\2.3DeleteMiddleNode.csproj", "{885CE21B-0ED3-4BA4-92AF-A13A576CC9C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.3DeleteMiddleNode", "2.3DeleteMiddleNode\2.3DeleteMiddleNode.csproj", "{885CE21B-0ED3-4BA4-92AF-A13A576CC9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5SumLists", "2.5SumLists\2.5SumLists.csproj", "{9C7CE426-3DF3-479C-90C6-A822D9030E18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{885CE21B-0ED3-4BA4-92AF-A13A576CC9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{885CE21B-0ED3-4BA4-92AF-A13A576CC9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{885CE21B-0ED3-4BA4-92AF-A13A576CC9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7CE426-3DF3-479C-90C6-A822D9030E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7CE426-3DF3-479C-90C6-A822D9030E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7CE426-3DF3-479C-90C6-A822D9030E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7CE426-3DF3-479C-90C6-A822D9030E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{DBDCE158-3D65-4537-8040-667175E517E2} = {0DFB26C7-7FE4-4CCC-93E4-4495AA329956}
 		{505C0B73-0AC0-4481-9F68-3FF68B6E440F} = {0DFB26C7-7FE4-4CCC-93E4-4495AA329956}
 		{885CE21B-0ED3-4BA4-92AF-A13A576CC9C2} = {0DFB26C7-7FE4-4CCC-93E4-4495AA329956}
+		{9C7CE426-3DF3-479C-90C6-A822D9030E18} = {0DFB26C7-7FE4-4CCC-93E4-4495AA329956}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63092C2E-702C-494B-A1C1-84F39D23E38E}
