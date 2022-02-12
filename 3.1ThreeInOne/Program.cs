@@ -8,13 +8,14 @@ namespace _3._1ThreeInOne
         static void Main(string[] args)
         {
             int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
-
+            int[] arr = new int[] { };
             //Brute force
             CreateStakes(array, GetLength(array));
 
         }
         public static void CreateStakes(int[] array, int n)
         {
+            if (n == 0) throw new Exception();
             Stack<int> stack1 = new Stack<int>();
             Stack<int> stack2 = new Stack<int>();
             Stack<int> stack3 = new Stack<int>();
@@ -35,10 +36,16 @@ namespace _3._1ThreeInOne
         {
             int length = array.Length;
             int n;
-            if (length % 3 == 0) n = length / 3;
+            if (length == 0) return 0;
+            else if (length % 3 == 0) n = length / 3;
             else n = (length / 3) + 1;
             return n;
         }
+
+
+
+
+
     }
 }
 
