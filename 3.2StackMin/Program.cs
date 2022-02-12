@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace _3._2StackMin
@@ -11,7 +12,7 @@ namespace _3._2StackMin
             int input = 45;
             Console.WriteLine(string.Join(" ", mainStack));
             Console.WriteLine(PushToStack(mainStack, input));
-            //Console.WriteLine(PopFromStack(mainStack));
+            //Console.WriteLine(PopFromStack(mainStack));         
 
         }
 
