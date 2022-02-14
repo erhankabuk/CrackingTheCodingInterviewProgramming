@@ -66,6 +66,24 @@ namespace _3._5SortStack
             return stack;
         }
 
- 
+         //Solution in book
+         static Stack<int> SortStack2(Stack<int> s)
+         {
+             Stack<int> r = new Stack<int>();
+             while (s.Count != 0)
+             {
+                 int tmp = s.Pop();
+                 while (r.Count != 0 && r.Peek() > tmp)
+                 {
+                     s.Push(r.Pop());
+                 }
+                 r.Push(tmp);
+             }
+             while (r.Count != 0)
+             {
+                 s.Push(r.Pop());
+             }
+             return s;
+         }
     }
 }
