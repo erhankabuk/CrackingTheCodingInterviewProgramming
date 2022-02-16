@@ -45,12 +45,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.4QueueViaStacks", "3.4Que
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.5SortStack", "3.5SortStack\3.5SortStack.csproj", "{B6ABD872-32E1-4D9C-9AF9-9AD0D4CCF67F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.6AnimalShelter", "3.6AnimalShelter\3.6AnimalShelter.csproj", "{80DFDF6D-40BE-442D-B044-88A0127B163A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.6AnimalShelter", "3.6AnimalShelter\3.6AnimalShelter.csproj", "{80DFDF6D-40BE-442D-B044-88A0127B163A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01A2DA72-6549-4A4B-A232-DFD0D6CC4038}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees And Graphs", "Trees And Graphs", "{B5620FC6-BA37-4A96-88BD-7B607EED9135}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
