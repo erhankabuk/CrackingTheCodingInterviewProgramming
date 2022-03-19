@@ -58,7 +58,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.0TreesAndGraphs", "4.0Tre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion And Dynamic Programming", "Recursion And Dynamic Programming", "{522C42AE-B272-4D51-8717-E494079FCF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1TripleSteps", "8.1TripleSteps\8.1TripleSteps.csproj", "{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.1TripleSteps", "8.1TripleSteps\8.1TripleSteps.csproj", "{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5RecursiveMultiply", "8.5RecursiveMultiply\8.5RecursiveMultiply.csproj", "{A5F4C438-63EC-4D81-ABA9-23639DE93047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -150,6 +152,10 @@ Global
 		{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +182,7 @@ Global
 		{80DFDF6D-40BE-442D-B044-88A0127B163A} = {38E76AA8-A3E7-4134-89AB-7A9B5A29F8BE}
 		{F62C43E0-AEC7-4371-9087-D32FA3D1A7E0} = {B5620FC6-BA37-4A96-88BD-7B607EED9135}
 		{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C} = {522C42AE-B272-4D51-8717-E494079FCF81}
+		{A5F4C438-63EC-4D81-ABA9-23639DE93047} = {522C42AE-B272-4D51-8717-E494079FCF81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63092C2E-702C-494B-A1C1-84F39D23E38E}
