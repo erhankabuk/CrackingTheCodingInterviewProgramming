@@ -60,7 +60,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion And Dynamic Progr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.1TripleSteps", "8.1TripleSteps\8.1TripleSteps.csproj", "{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5RecursiveMultiply", "8.5RecursiveMultiply\8.5RecursiveMultiply.csproj", "{A5F4C438-63EC-4D81-ABA9-23639DE93047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.5RecursiveMultiply", "8.5RecursiveMultiply\8.5RecursiveMultiply.csproj", "{A5F4C438-63EC-4D81-ABA9-23639DE93047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.10PaintFill", "8.10PaintFill\8.10PaintFill.csproj", "{625BEC5E-B5EC-45E6-886F-A8DFE1E70D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,6 +158,10 @@ Global
 		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F4C438-63EC-4D81-ABA9-23639DE93047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625BEC5E-B5EC-45E6-886F-A8DFE1E70D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625BEC5E-B5EC-45E6-886F-A8DFE1E70D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625BEC5E-B5EC-45E6-886F-A8DFE1E70D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625BEC5E-B5EC-45E6-886F-A8DFE1E70D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +189,7 @@ Global
 		{F62C43E0-AEC7-4371-9087-D32FA3D1A7E0} = {B5620FC6-BA37-4A96-88BD-7B607EED9135}
 		{58CC16D7-BDB3-41F7-B2BB-6F8EA9011C0C} = {522C42AE-B272-4D51-8717-E494079FCF81}
 		{A5F4C438-63EC-4D81-ABA9-23639DE93047} = {522C42AE-B272-4D51-8717-E494079FCF81}
+		{625BEC5E-B5EC-45E6-886F-A8DFE1E70D77} = {522C42AE-B272-4D51-8717-E494079FCF81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63092C2E-702C-494B-A1C1-84F39D23E38E}
